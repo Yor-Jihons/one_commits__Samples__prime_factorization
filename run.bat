@@ -1,2 +1,2 @@
 @echo off
-.\bin\main < .\test\input2.txt
+.\bin\main < .\test\input1.txt
