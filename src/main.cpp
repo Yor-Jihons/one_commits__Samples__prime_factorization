@@ -59,15 +59,6 @@ namespace Original{
 
 
 int main( int argc, char** argv ){
-    int a1, n, d;
-    cin >> a1 >> n >> d;
-
-    auto progression = Original::CreateArithmeticProgression( a1, n, d );
-
-    for( int i = 0; i < n; i++ ){
-        cout << progression[i] << flush;
-        if( i != n - 1 ) cout << " " << flush;
-    }
-    cout << endl;
+    
 return 0;
 }
