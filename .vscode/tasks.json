@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile with g++",
+            "type": "shell",
+           "command": "g++",
+            "args": [
+                "-g",
+                "-O0",
+                ".\\src\\main.cpp",
+                "-o",
+                ".\\bin\\main.eXe"
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Compile with make",
+            "type": "shell",
+           "command": "echo",
+            "args": [
+                "test"
+            ],
+            "group": "build"
+        }
+    ]
+}
