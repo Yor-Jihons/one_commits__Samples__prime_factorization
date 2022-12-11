@@ -7,6 +7,7 @@ This is a sample so that I can commit this to the GitHub.
 入力値Nを素因数分解するプログラムを組め。  
 ただし解は昇順で表示し、同じ数字が複数回出ている場合はべき乗(n^m)にして出力すること。
 べき乗表記は nのm乗 は n^m とする。
+また、異常系については考慮しないものとする。
 
 ## 2. Conditions
 
